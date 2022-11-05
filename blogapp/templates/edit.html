@@ -1,0 +1,40 @@
+{% extends 'base.html'%}
+{% block content %}
+{% if blog %}
+    <div>
+        <form action="{{url_for('edit', blog_id=blog.id)}}" method="POST">
+            <div class="container">
+                <div>
+                    <label for="Title">Title</label>
+                    <input type="text" name="title" id="btitle" value="{{ blog.title }}">
+                </div><br><br>
+                <div>
+                    <label for="Blog">Blog content</label>
+                    <textarea rows="" name="content" id="bcontent">{{ blog.content }}</textarea>
+                </div><br><br>
+                <div>
+                    <button type="submit" class="btn">Save</button>
+                </div> 
+            </div>
+        </form>
+    </div>
+{% else %}
+    <div>
+        <form action="{{url_for('edit', blog_id=blog.id)}}" method="POST">
+            <div class="container">
+                <div>
+                    <label for="Title">Title</label>
+                    <input type="text" name="title" id="btitle" value="{{ blog.title }}">
+                </div><br><br>
+                <div>
+                    <label for="Blog">Blog content</label>
+                    <textarea rows="" name="content" class="" id="bcontent"></textarea>
+                </div><br><br>
+                <div>
+                    <button type="submit" class="btn">Save</button>
+                </div> 
+            </div>
+        </form>
+    </div>
+{% endif %}
+{% endblock content %}

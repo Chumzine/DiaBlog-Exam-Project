@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+.content{
+    line-height: 1.4;
+    color: beige;
+    padding: 0;
+    justify-content: center
+}
+.pager{
+    width: 100%;
+    text-decoration-color: greenyellow;
+}
+.container{
+    max-width: 1320px;
+    height: 0 auto;
+    margin: 0 1.2rem;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+.head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    color: rosybrown;
+    margin-bottom: 2rem;
+}
+header{
+    background: cornsilk;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.navbar{
+    padding: 0.8rem;
+}
+.navbar-brand{
+    color: rosybrown;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana;
+    letter-spacing: 2px;
+}
+.navbar-nav{
+    padding: 0.8rem 0 0.2rem 0;
+    text-align: center;
+}
+.navbar-nav a{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: rosybrown;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.4rem 0.1rem;
+    letter-spacing: 3px;
+    transition: opacity 0.5s ease;
+}
+.navbar-nav a:hover{
+    color: yellowgreen;
+    background-color: beige;
+    border: 1px solid brown;
+}
+.banner{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rosybrown;
+}
+.banner-title{
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 4rem;
+}
+form{
+    background: sandybrown;
+    border-radius: 0;
+    padding: 0.6rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+.form-btn{
+    width: 60px;
+    font-size: 1rem;
+    color: #000;
+    border: 1px solid grey;
+    background: olivedrab;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.title{
+    color: #000;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.content p{
+    color: rgb(87, 67, 75);
+}
+.title h2{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+.title h3
+.blog-title{
+    font-family: Arial, Helvetica, sans-serif cursive;
+    font-size: 3rem;
+    font-style: italic;
+}
+.blog-title a{
+    text-decoration: none;
+    color: aqua;
+    cursor: pointer;
+}
+.create-btn{
+    text-decoration: none;
+    color: rosybrown;
+    cursor: pointer;
+    text-align: right;
+    width: 100px;
+    background-color: blanchedalmond;
+    border: 1px solid wheat;
+    font-size: 0.9rem;
+}
+.btn{
+    width: 60px;
+    font-size: 0.7rem;
+    color: #000;
+    border: 1px solid grey;
+    background: rgb(178, 185, 163);
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.about-content p{
+    font-size: medium;
+    padding: 0.6rem 0;
+    opacity: 0.8;
+    text-align: center;
+    color: rgb(87, 67, 75);
+    background-color: azure;
+}
+.about-content a{
+    font-style: bold;
+    text-decoration: none;
+}
+.about{
+    padding: 4.5rem 0;
+}
+.post a{
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+.post a:hover{
+    color: whitesmoke;
+    background-color: aquamarine;
+    border: 1px solid gray;
+}
+footer{
+    background: rgba(0, 0, 0, 0.6);
+    color: ghostwhite;
+    text-align: center;
+    padding: 5rem 0;
+}
+footer p{
+    margin-top: 1rem;
+    letter-spacing: 2px;
+    display: block;
+}

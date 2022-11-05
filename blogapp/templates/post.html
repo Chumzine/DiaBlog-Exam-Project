@@ -1,0 +1,27 @@
+{% extends 'base.html'%}
+{% block content %}
+<!-- Blogpost creation here-->
+    <form action="{{url_for('addpost')}}" method="POST">
+        <div>
+            <div class="title">
+                <h3>Create Your Blog Here</h3>
+            </div>
+            <div>
+                <label for="Title">Title</label><br>
+                <input type="text" placeholder ="Title of Blog" name="title" class="" id="tit">
+            </div><br><br>
+            <div>
+                <label for="Author">Author</label><br>
+                <input type="text" placeholder ="Full Name" name="author" class="" id="auth">
+            </div><br><br>
+            <div>
+                <label for="Blog">Blog content</label><br>
+                <textarea rows="" placeholder ="Blog Content" name="content" class="" id="blog"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Create" class="btn" id="post-btn"> 
+            </div>
+        </div>  
+    </form>
+<!--Creation of blogpost ends here-->
+{% endblock content %}

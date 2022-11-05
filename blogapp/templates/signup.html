@@ -1,0 +1,52 @@
+{% extends 'base.html'%}
+{% block content %}
+<!--Sign up form starts here-->
+    <form action="{{url_for('register')}}" method="POST">
+        <div>
+            <div class="title">
+                <h3>Let's Create An Account</h3>
+            </div>
+            <div>
+                <label for="Firstname">First Name</label><br>
+                <input type="text" placeholder ="" name="firstname" class="" id="fname">
+            </div><br>
+            <div>
+                <label for="Lastname">Last Name</label><br>
+                <input type="text" placeholder ="" name="lastname" class="" id="lname">
+            </div><br>
+            <div>
+                <label for="Username">Username</label><br>
+                <input type="text" placeholder ="" name="username" class="" id="uname">
+            </div><br>
+            <div>
+                <label for="Gender">Gender</label><br>
+                <select name="gender" id="gen">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="not_to_say">Prefer Not To Say</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="Email">Email</label><br>
+                <input type="text" name="email" class="" id="mail">
+            </div><br>
+            <div>
+                <label for="Password">Password</label><br>
+                <input type="password" name="password" class="" id="pass">
+            </div><br>
+            <div>
+                <label for="Confirm">Confirm Password</label><br>
+                <input type="password" name="confirmpassword" class="" id="cpass">
+            </div><br>
+            <div>
+                <input type="submit" value="Signup" class="form-btn" id="signup-btn"> 
+            </div><br>
+            <div>
+                <small>
+                    Already have an account? <a href="{{url_for('login')}}">Sign in</a>
+                </small>
+            </div>
+        </div>
+    </form>
+<!--Sign up form ends here-->
+{% endblock content %}

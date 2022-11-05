@@ -1,0 +1,27 @@
+{% extends 'base.html'%}
+{% block content %}
+<!-- Contact form -->
+    <form action="{{url_for('contact')}}" method="POST">
+        <div class="container">
+            <div class="title">
+                <h3>Contact</h3>
+            </div>
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" name="name" placeholder="Enter your name here" class="" id="name">
+            </div><br><br>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="text" name="email" placeholder="Enter a valid email address here"  class="" id="email"> 
+            </div><br><br>
+            <div>
+                <label for="message">Message</label><br>
+                <textarea rows="" name="message" placeholder="Type message here" class="" id="message"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send" class="form-btn" id=""> 
+            </div>
+        </div>
+    </form>
+<!-- End of contact form -->
+{% endblock content %}
