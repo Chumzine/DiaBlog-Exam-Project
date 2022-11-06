@@ -132,7 +132,6 @@ Text Editor
    python app.py
    ```
 5. Open the link generated in the terminal on a browser
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,7 +186,7 @@ Project Link: [https://github.com/Chumzine/DiaBlog-Exam-Project](https://github.
 [license-shield]: https://img.shields.io/github/license/Chumzine/DiaBlog-Exam-Project.svg?style=for-the-badge
 [license-url]: https://github.com/Chumzine/DiaBlog-Exam-Project/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/chumzine
+[linkedin-url]: https://linkedin.com/in/she-adaobi-chuma-okeke-3677a9140/
 [twitter-shield]: https://img.shields.io/badge/-@chumzine-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/chumzine
 [twitter-url]: https://twitter.com/chumzine
 [python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
