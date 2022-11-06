@@ -166,6 +166,7 @@ Project Link: [https://github.com/Chumzine/DiaBlog-Exam-Project](https://github.
 * [Dr. Austin Wopara](https://github.com/Ze-Austin/altschool-python)
 * [YouTube](https://www.youtube.com)
 * [Othneil Drew's README Template](https://github.com/othneildrew/Best-README-Template)
+* [Adeniyi Olanrewaju Mark](https://github.com/engrmarkk)
 * [Stack Overflow](https://stackoverflow.com/)
 * [Google](https://google.com)
 
