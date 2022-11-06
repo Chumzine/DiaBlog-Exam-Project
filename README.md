@@ -184,7 +184,7 @@ Project Link: [https://github.com/Chumzine/DiaBlog-Exam-Project](https://github.
 [issues-shield]: https://img.shields.io/github/issues/Chumzine/DiaBlog-Exam-Project.svg?style=for-the-badge
 [issues-url]: https://github.com/Chumzine/DiaBlog-Exam-Project/issues
 [license-shield]: https://img.shields.io/github/license/Chumzine/DiaBlog-Exam-Project.svg?style=for-the-badge
-[license-url]: https://github.com/Chumzine/DiaBlog-Exam-Project/blob/master/LICENSE.txt
+[license-url]: https://github.com/Chumzine/DiaBlog-Exam-Project/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/she-adaobi-chuma-okeke-3677a9140
 [twitter-shield]: https://img.shields.io/badge/-@chumzine-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/chumzine
