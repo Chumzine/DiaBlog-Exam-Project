@@ -1,5 +1,4 @@
 # DiaBlog-Exam-Project
-A blogging web application built as the exam project for my second semester in AltSchool Africa
 
 
 <!-- PROJECT SHIELDS -->
@@ -13,10 +12,10 @@ A blogging web application built as the exam project for my second semester in A
 [![Twitter][twitter-shield]][twitter-url]
 
 
-<h3 align="center">project_title</h3>
+<h3 align="center">DiaBlog</h3>
 
   <p align="center">
-    project_description
+    A blogging web application built as the exam project for my second semester in AltSchool Africa
     <br />
     <a href="https://github.com/Chumzine/DiaBlog-Exam-Project"><strong>Explore the docs »</strong></a>
     <br />
