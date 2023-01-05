@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for, request, redirect
+from flask import Flask, render_template, url_for, request, redirect, flash
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import login_user, current_user, LoginManager, UserMixin, logout_user, login_required
@@ -93,6 +93,7 @@ def register():
         db.session.add(new_user)
         db.session.commit()
 
+        flash('You have been signed up successfully')
         return redirect(url_for('login'))
 
     return render_template('signup.html')
@@ -107,6 +108,7 @@ def login():
 
     if user and check_password_hash(user.password_hash, password):
         login_user(user)
+        flash('You are now logged in')
         return redirect(url_for('index'))
 
     return render_template('signin.html')
@@ -129,6 +131,7 @@ def contact():
         db.session.add(contact_form)
         db.session.commit()
 
+        flash('Your contact form was submitted successfully')
         return redirect(url_for('index'))
 
     return render_template('contact.html')
@@ -137,6 +140,7 @@ def contact():
 @app.route('/logout')
 def logout():
     logout_user()
+    flash('You were successfully logged out')
     return redirect(url_for('index'))
 
 
@@ -158,6 +162,7 @@ def addpost():
         db.session.add(post)
         db.session.commit()
 
+        flash('You have successfully created a blog')
         return redirect(url_for('index'))
 
     return render_template('post.html')
@@ -176,6 +181,7 @@ def edit(blog_id):
 
         db.session.commit()
 
+        flash('Your blog has been edited successfully')
         return redirect(url_for('blog', blog_id=blog_to_update.id))
 
     return render_template('edit.html', blog=blog_to_update, title=Blogpost.title, content=Blogpost.content)
@@ -189,6 +195,7 @@ def delete_blog(blog_id):
     db.session.delete(blog_to_delete)
     db.session.commit()
 
+    flash('Your blog has been deleted successfully')  
     return redirect(url_for('index'))
 
 
